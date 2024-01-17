@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "O5jHroN7fzsKYoDVQ50q7iHPCDUXo4OGPpYOp3AaXFeJSp9C1MaCDaOmZbOZPPoY0KYMKt5EaKd2BPTP+7/gxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\armando\\Desktop\\vs cw\\csvimport\\csvimport\\csvimport.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\armando\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
