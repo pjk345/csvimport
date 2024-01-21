@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jm9X0ns4bRyIUovg+h1AiOeneYHT10HU2phg2kqVacc=",
+  "Hash": "N4Y9WsmM1tUFBH7jUzfLrZfE7AXDbFeVVHlMWhSoVJ4=",
   "Source": "csvimport",
   "BasePath": "_content/csvimport",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\armando\\Desktop\\vs cw\\csvimport\\csvimport\\wwwroot\\files\\a-export_payments_2023-11_2023-12-13 (1).csv",
+      "SourceId": "csvimport",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\armando\\Desktop\\vs cw\\csvimport\\csvimport\\wwwroot\\",
+      "BasePath": "_content/csvimport",
+      "RelativePath": "files/a-export_payments_2023-11_2023-12-13 (1).csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\a-export_payments_2023-11_2023-12-13 (1).csv"
     },
     {
       "Identity": "C:\\Users\\armando\\Desktop\\vs cw\\csvimport\\csvimport\\wwwroot\\js\\site.js",

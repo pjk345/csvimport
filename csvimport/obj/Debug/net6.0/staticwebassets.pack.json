@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\armando\\Desktop\\vs cw\\csvimport\\csvimport\\wwwroot\\files\\a-export_payments_2023-11_2023-12-13 (1).csv",
+      "PackagePath": "staticwebassets\\files\\a-export_payments_2023-11_2023-12-13 (1).csv"
+    },
+    {
       "Id": "C:\\Users\\armando\\Desktop\\vs cw\\csvimport\\csvimport\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
