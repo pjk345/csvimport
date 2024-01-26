@@ -51,18 +51,19 @@ namespace csvimport.Controllers
             var path = $"{ Directory.GetCurrentDirectory()}{@"\wwwroot\files" }" +"\\" + fileName;
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
+                HasHeaderRecord = true  ,
                 MissingFieldFound = null,
                 Delimiter = ";"
             };
             using (var reader = new StreamReader(path))
             using (var csv = new CsvReader(reader,CultureInfo.InvariantCulture))
             {
-
+                
                 csv.Read();
                 csv.ReadHeader();
                 
 
-                while (csv.Read()) 
+               while (csv.Read()) 
                 {
                     var payment = csv.GetRecord<Payments>();
                     payments.Add(payment);

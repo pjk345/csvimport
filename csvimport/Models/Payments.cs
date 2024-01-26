@@ -1,4 +1,5 @@
 ﻿using CsvHelper.Configuration;
+using CsvHelper.Configuration.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ namespace csvimport
 {
     public class Payments
     {
+        [Name("created_at")]
         public string created_at { get; set; }
         public string service { get; set; }
         public string payment_id { get; set; }
@@ -20,14 +22,5 @@ namespace csvimport
         public string client_id { get; set; }
         public string subscription_id { get; set; }
 
-    }
-    public class PaymentsMap : ClassMap<Payments>
-    {
-        public PaymentsMap()
-        {
-            Map(m => m.created_at).Name("created_at");
-            Map(m => m.service).Name("service");
-            // ... map other fields
-        }
     }
 }
