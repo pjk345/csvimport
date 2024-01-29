@@ -10,10 +10,10 @@
     <button type ="submit">Upload</button>
 </form> 
 
-@if (Model != null && Model.Count() == 0)
+@if (Model.Count() != 0)
 {
     <hr />
-    <table cellpadding="0" cellspacing="0" border="1">
+    <table  border="1">
         <tr>
             <td>created_at</td>
             <td>service</td>
@@ -27,21 +27,21 @@
             <td>client_id</td>
             <td>subscription_id</td>
         </tr>
-
+        
         @foreach(Payments payments in Model)
         {
          <tr>
-                <td>payments.created_at</td>
-                <td>payments.service</td>
-                <td>payments.payment_id</td>
-                <td>payments.description</td>
-                <td>payments.amount</td>
-                <td>payments.currency</td>
-                <td>payments.state</td>
-                <td>payments.issuer_response_code</td>
-                <td>payments.transaction_id</td>
-                <td>payments.client_id</td>
-                <td>payments.subscription_id</td>
+                <td>@payments.created</td>
+                <td>@payments.service</td>
+                <td>@payments.payment_id</td>
+                <td>@payments.description</td>
+                <td>@payments.amount</td>
+                <td>@payments.currency</td>
+                <td>@payments.state</td>
+                <td>@payments.issuer_response_code</td>
+                <td>@payments.transaction_id</td>
+                <td>@payments.client_id</td>
+                <td>@payments.subscription_id</td>
         </tr>
         }
 
